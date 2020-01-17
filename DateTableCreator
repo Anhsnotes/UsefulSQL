@@ -1,0 +1,11 @@
+-- Credit to Travis Schwieger --
+
+WITH DimDateCreator as 
+( 
+
+SELECT Cast ('1990-01-01' as DateTime) Date --Start Date 
+UNION ALL 
+SELECT Date + 1 
+FROM DimDateCreator 
+WHERE Date + 1 < = '2050-12-31' --End date 
+) 
