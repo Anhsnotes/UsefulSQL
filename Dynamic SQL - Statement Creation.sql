@@ -1,3 +1,4 @@
+-- Credit to Douglas Child who created this code --
 
 SET ANSI_NULLS ON
 GO
